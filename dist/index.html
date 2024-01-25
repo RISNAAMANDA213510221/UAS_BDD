@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9 Risna Amanda</title>
+</head>
+<body>
+   <h1> Getting started with firebase</h1> 
+
+   <h2> Firebase Firestore</h2>
+
+   <form class="add">
+    <label for="title"> Judul </label>
+    <input type="text" name="title" required>
+    <label for="author"> Pengarang: </label>
+    <input type="text" name="author" required>
+
+    <button> Tambah Buku Baru </button>
+   </form>
+
+   
+   <form class="delete">
+    <label for="id"> Document Id </label>
+    <input type="text" name="id" required>
+
+    <button> Hapus Baru </button>
+</form>
+   
+    <form class="update">
+        <label for="id"> Document Id </label>
+        <input type="text" name="id" required>
+       
+    <button> Update Buku </button>
+   </form>
+
+   <h2> Firebase Auth</h2>
+
+   <form class="signup">
+    <label for="email"> Email </label>
+    <input type="email" name="email" >
+    <label for="password"> Password: </label>
+    <input type="password" name="password">
+    <button> Sign Up</button>
+   </form>
+
+   <form class="login">
+    <label for="email"> Email </label>
+    <input type="email" name="email" >
+    <label for="password"> Password: </label>
+    <input type="password" name="password">
+    <button> login </button>
+   </form>
+    <button class="logout"> Logout</button>
+
+    <h2> Unsubcribing </h2>
+    <button class="unsub"> Unsubcribing from db/auth changes</button>
+
+
+   <script src="bundle.js"> </script>
+</body>
+</html>
